@@ -1,76 +1,76 @@
 /* Carrusel */
 
 .bg-img-1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/ba1.jpg);
-    
-  }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../resources/img/ba1.jpg);
   
-  .bg-img-2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/ba2.jpg);
-  }
-  
-  .bg-img-3{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/ba3.jpg);
-  }
-  
-  .imagen-carousel{
-    height: 60vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .carousel-contenedor_textos {
-  position: absolute;
-  z-index: 1;
+}
+
+.bg-img-2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../resources/img/ba2.jpg);
+}
+
+.bg-img-3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../resources/img/ba3.jpg);
+}
+
+.imagen-carousel{
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-contenedor_textos {
+position: absolute;
+z-index: 1;
+width: auto;
+}
+
+.carousel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.carousel-textos {
+  z-index: 2;
+  text-align: right;
+  color: rgb(255, 255, 255);
   width: auto;
-  }
-  
-  .carousel{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: end;
-  }
-  
+  max-width: 550px;
+
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 18px;
+}
+
+.carrusel{
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.btn{
+  margin: 6px;
+}
+
+
+@media only screen and (min-width: 500px) {
   .carousel-textos {
-    z-index: 2;
-    text-align: right;
-    color: rgb(255, 255, 255);
-    width: auto;
-    max-width: 550px;
-  
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    padding: 18px;
-  }
-  
-  .carrusel{
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-  
-  .btn{
-    margin: 6px;
-  }
-  
-  
-  @media only screen and (min-width: 500px) {
-    .carousel-textos {
-      margin-right: calc(15% + 5%) ;
-  
-    }
-    
+    margin-right: calc(15% + 5%) ;
 
   }
-
-  @media only screen and (min-width: 1440px) {
-    .carousel-textos {
-      margin-right: calc(30% + 5%) ;
   
-    }
-    
+
+}
+
+@media only screen and (min-width: 1440px) {
+  .carousel-textos {
+    margin-right: calc(30% + 5%) ;
 
   }
+  
+
+}

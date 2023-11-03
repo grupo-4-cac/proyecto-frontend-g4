@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TechTalk</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  
+
   <!-- Bootstrap -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!-- CSS -->
   <link href="./styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+  <!-- Nav -->
   <nav class="navbar navbar-expand-lg navbar-dark static-top" style="background-color:#000000;">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="./resources/img/logocolorwhite.svg" alt="logo" height="35"></a>
@@ -35,27 +38,31 @@
             <a class="nav-link" href="#conviertete-orador">Conviértete en orador</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-warning" href="">Comprar tickets</a>
+            <a class="nav-link text-warning" href="pages/tickets.html">Comprar tickets</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <!-- End Nav -->
 
   <!-- Carrusel -->
-
   <section id="conferencia">
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-contenedor_textos container">
         <div class="carousel-textos">
           <h1>TechTalk World Tour</h1>
-          <p>¡Hola Buenos Aires! TechTalk conference, llega por primera vez a tu ciudad. Únete a nosotros en un evento único lleno de conferencias innovadoras, networking y las últimas tendencias tecnológicas. ¡No te pierdas la oportunidad de formar parte de la revolución digital!¡Compra tus entradas ahora! #TechTalkbBA #Innovación #TecnologíaEnBuenosAires</p>
+          <p>¡Hola Buenos Aires! TechTalk conference, llega por primera vez a tu ciudad. Únete a nosotros en un evento
+            único lleno de conferencias innovadoras, networking y las últimas tendencias tecnológicas. ¡No te pierdas la
+            oportunidad de formar parte de la revolución digital!¡Compra tus entradas ahora! #TechTalkbBA #Innovación
+            #TecnologíaEnBuenosAires</p>
           <div>
-            <a href="#"><button type="button" class="btn btn-outline-light">Quiero ser orador</button></a>
-            <a href="#"><button type="button" class="btn btn-warning">Comprar tickets</button></a>
+            <a href="#conviertete-orador"><button type="button" class="btn btn-outline-light">Quiero ser
+                orador</button></a>
+            <a href="./pages/tickets.html"><button type="button" class="btn btn-warning">Comprar tickets</button></a>
           </div>
         </div>
-      </div>  
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active imagen-carousel bg-img-1">
         </div>
@@ -76,10 +83,8 @@
   </section>
   <!-- End Carrusel -->
 
-
+  <!-- Contenido de Los oradores -->
   <section id="oradores">
-    <!-- Contenido de Los oradores -->
-
     <div class="container">
       <p class="text-center mt-3 mb-1">CONOCE A LOS</p>
       <h1 class="text-center">ORADORES</h1>
@@ -91,7 +96,8 @@
               <span class="badge text-bg-info text-light">Informática</span>
               <span class="badge text-bg-primary">Seguridad</span>
               <h5 class="card-title">Radia Perlman</h5>
-              <p class="card-text">Conocida como "la madre de Internet", esta matemática e ingeniera de redes es experta en seguridad cibernética.</p>
+              <p class="card-text">Conocida como "la madre de Internet", esta matemática e ingeniera de redes es experta
+                en seguridad cibernética.</p>
             </div>
           </div>
         </div>
@@ -102,7 +108,8 @@
               <span class="badge text-bg-primary">Back end</span>
               <span class="badge text-bg-danger">Java</span>
               <h5 class="card-title">James Gosling</h5>
-              <p class="card-text">Es un famoso científico de la computación conocido como el padre del lenguaje de programación Java.</p>
+              <p class="card-text">Es un famoso científico de la computación conocido como el padre del lenguaje de
+                programación Java.</p>
             </div>
           </div>
         </div>
@@ -120,41 +127,45 @@
       </div>
     </div>
   </section>
-
+  <!-- End Contenido de Los oradores -->
 
   <!-- Contenido de El lugar y la fecha -->
   <section id="lugar-fecha">
     <div class="contenedor-general">
-      <div class="teatro imagen-teatro">           
+      <div class="teatro imagen-teatro">
       </div>
       <div class="contenedor-info">
-          <h5>TechTalk Conference en Bs As</h5>
-          <p>El Teatro Colón será la sede de la TechTalk Conference el Lunes 20 de noviembre, donde expertos destacados como Radia Perlman, James Gosling y Brendan Eich compartirán insights sobre lenguajes de programación y tecnología. Únete a nosotros para explorar las últimas tendencias, participar en sesiones interactivas y conectarte con líderes de la industria. Las entradas están disponibles a partir del 17 de octubre.</p>
-          <button type="button" class="btn btn-warning m-0" style="width: fit-content; ">Comprar ticket</button>
+        <h5>TechTalk Conference en Bs As</h5>
+        <p>El Teatro Colón será la sede de la TechTalk Conference el Lunes 20 de noviembre, donde expertos destacados
+          como Radia Perlman, James Gosling y Brendan Eich compartirán insights sobre lenguajes de programación y
+          tecnología. Únete a nosotros para explorar las últimas tendencias, participar en sesiones interactivas y
+          conectarte con líderes de la industria. Las entradas están disponibles a partir del 17 de octubre.</p>
+        <a href="./pages/tickets.html"><button type="button" class="btn btn-warning m-0"
+            style="width: fit-content; ">Comprar ticket</button></a>
       </div>
     </div>
   </section>
+  <!-- End Contenido de El lugar y la fecha -->
 
-      <!-- End Contenido de El lugar y la fecha -->
-
-
-
-    <!-- Contenido de Conviertete en orador -->
+  <!-- Contenido de Conviertete en orador -->
+  <section id="conviertete-orador">
     <div class="contenedor-general__form">
       <div class="contenedor-form container">
-              <p>CONVIÉRTETE EN UN</p>
-              <h1>ORADOR</h1>
-              <h6>Anótate como orador para dar una charla en TechTalk bs as. Cuéntanos de qué quieres hablar!</h6>
-              <input type="text" placeholder="Nombre" label="Nombre">
-              <input type="text" placeholder="Apellido" label="Apellido">
-              <textarea name="" id=""placeholder="Escriba su mensaje" ></textarea>
-              <p style="color: rgb(183, 183, 183);">*Recuerda incluir un título para tu charla</p>
-              <button type="button" class="btn btn-primary m-0" style="width: fit-content; ">Enviar</button>
-          </div>
+        <p>CONVIÉRTETE EN UN</p>
+        <h1>ORADOR</h1>
+        <h6>Anótate como orador para dar una charla en TechTalk bs as. Cuéntanos de qué quieres hablar!</h6>
+        <input type="text" placeholder="Nombre" label="Nombre">
+        <input type="text" placeholder="Apellido" label="Apellido">
+        <textarea name="" id="" placeholder="Escriba su mensaje"></textarea>
+        <p style="color: rgb(183, 183, 183);">*Recuerda incluir un título para tu charla</p>
+        <button type="button" class="btn btn-primary m-0" style="width: fit-content; ">Enviar</button>
       </div>
+    </div>
+  </section>
+  <!-- End Contenido de Conviertete en orador -->
 
 
-
+  <!-- Footer -->
   <footer class="py-3 footer-color">
     <ul class="nav justify-content-center">
       <li class="nav-item"><a href="#" class="nav-link  text-light">Preguntas frecuentes</a></li>
@@ -167,9 +178,14 @@
 
     </ul>
   </footer>
+  <!-- End Footer -->
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
