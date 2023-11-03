@@ -1,0 +1,27 @@
+.titulo_tickets{
+    text-align: left;
+    padding: 20px 0px;
+}
+
+
+/* Form */
+
+.form_tickets{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+
+.total{
+    width: 300px;
+    height: auto;
+    background-color: rgb(251, 197, 48);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+/* End Form */
+  
+  

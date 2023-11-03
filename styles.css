@@ -1,7 +1,7 @@
-@import "./resources/css/general-settings.css";
-@import "./resources/css/carousel.css";
-@import "./resources/css/oradores.css";
-@import "./resources/css/lugar-fecha.css";
-@import "./resources/css/formulario.css";
-@import "./resources/css/footer.css";
-@import "./resources/css/tickets.css";
+@import "./css/general-settings.css";
+@import "./css/carousel.css";
+@import "./css/oradores.css";
+@import "./css/lugar-fecha.css";
+@import "./css/formulario.css";
+@import "./css/footer.css";
+@import "./css/tickets.css";
