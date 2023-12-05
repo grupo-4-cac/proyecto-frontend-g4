@@ -3,12 +3,12 @@
 ***
 
 ## Descripción del Proyecto
-¡Bienvenido a TechTalk, tu destino para explorar y participar en charlas de tecnología de vanguardia! Este proyecto, desarrollado por Rocío Sosa y Pablo Pache, es una plataforma web que te permite acceder a eventos tecnológicos emocionantes y comprar tus tickets de manera conveniente. TechTalk utiliza una combinación de HTML, CSS, JavaScript, Java y SQL para brindarte una experiencia completa.
+¡Bienvenido a TechTalk, tu destino para explorar y participar en charlas de tecnología de vanguardia! Este proyecto, desarrollado por Rocío Sosa y Pablo Pache, es una plataforma web que permite acceder a eventos tecnológicos emocionantes y comprar tickets de manera conveniente. TechTalk utiliza una combinación de HTML, CSS, JavaScript, Java y SQL para brindar una experiencia completa.
 
 ***
 
 ### Características Principales
-Explora y Descubre: Sumérgete en el fascinante mundo de la tecnología a través de una amplia variedad de charlas y eventos.
+Explorar y Descubrir: Sumérgete en el fascinante mundo de la tecnología a través de una amplia variedad de charlas y eventos.
 
 Compra Tus Tickets: Adquiere fácilmente tus tickets para las charlas que más te interesen.
 
