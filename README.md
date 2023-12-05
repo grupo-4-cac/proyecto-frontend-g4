@@ -66,8 +66,8 @@ Abre el proyecto en un navegador web.
 ***
 
 ### Contribuidores
-Rocío Sosa
-Pablo Pache
+1. Rocío Sosa
+2. Pablo Pache
 
 ***
 
