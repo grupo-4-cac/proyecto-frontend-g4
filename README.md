@@ -5,6 +5,10 @@
 ## Descripción del Proyecto
 ¡Bienvenido a TechTalk, tu destino para explorar y participar en charlas de tecnología de vanguardia! Este proyecto, desarrollado por Rocío Sosa y Pablo Pache, es una plataforma web que permite acceder a eventos tecnológicos emocionantes y comprar tickets de manera conveniente. TechTalk utiliza una combinación de HTML, CSS, JavaScript, Java y SQL para brindar una experiencia completa.
 
+![img1](https://raw.githubusercontent.com/grupo-4-cac/proyecto_final_cac_g4/main/resources/img/Screen%20Shot%201.png)
+
+![img2](https://raw.githubusercontent.com/grupo-4-cac/proyecto_final_cac_g4/main/resources/img/Screen%20Shot%202.png)
+
 ***
 
 ### Características Principales
